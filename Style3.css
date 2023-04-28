@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:whgt@400;500;600:900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+/* body {
+  overflow: hidden;
+} */
+.container {
+  /* width: 100%;
+  min-height: 100%; */
+  height: auto;
+  background: linear-gradient(90deg, #c493ff, #fefedf, #d5cabd);
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  height: 100px;
+  line-height: 100px;
+  /* z-index: 111; */
+  background-color: transparent;
+}
+.logo {
+  display: flex;
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+b {
+  font-size: 50px;
+  color: #7f00ff;
+}
+.navItems {
+  display: flex;
+}
+.navItems li {
+  list-style: none;
+  margin: 0 15px;
+}
+.navItems li a {
+  font-size: 16px;
+  color: black;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover {
+  color: #036cff;
+}
+.links a {
+  font-size: 24px;
+  color: black;
+  margin: 0px 8px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  /* overflow: hidden; */
+}
+.cols {
+  width: 50%;
+}
+.cols0 {
+  margin-top: 80px;
+  width: 75%;
+  z-index: 5;
+}
+.topline {
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: black;
+}
+.topline ::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 20px;
+  bottom: 10px;
+  background-color: #7f00ff;
+}
+h1 {
+  display: block;
+  font-size: 5em;
+  font-weight: 900;
+  color: black;
+}
+.multiText {
+  color: #7f00ff;
+  text-transform: capitalize;
+}
+p {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  color: black;
+}
+.btns {
+  width: 100%;
+  position: relative;
+  left: 150px;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  background: #7f00ff;
+  padding: 8px 10px;
+  margin: 40px 5px;
+  letter-spacing: 1px;
+  border-radius: 18px;
+  text-transform: capitalize;
+}
+button:hover {
+  background-color: #036cff;
+}
+
+.btnclr {
+  color: #f3f5f8;
+  text-decoration: none;
+  font-weight: 500;
+}
+.imgbox {
+  width: 80%;
+}
+.cols1 {
+  position: relative;
+  max-width: 40%;
+  max-height: 40%;
+}
