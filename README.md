@@ -1,3 +1,3 @@
 # PortfolioHomepage
-<img src="Portfolio.png" />
+<img src="portfo.png" />
 <h3>This website showcases my skills and experiences in the fields of web development and design. With expertise in HTML, CSS, and JavaScript, I have created a visually appealing and functional website that highlights my achievements and professional projects. From front-end development to back-end programming, I am passionate about creating innovative solutions that make a difference. Explore my site to learn more about my work and to get in touch with me to discuss potential collaborations or employment opportunities. Thank you for visiting! <h3/>
